@@ -28,6 +28,7 @@ Then download the RISC Zero toolchain and install it using rzup:
 
 ```sh
 curl -L https://risczero.com/install | bash
+source ~/.bashrc
 ```
 
 Next we can install the RISC Zero toolchain by running rzup install:
@@ -47,6 +48,7 @@ If you don't already have Forge installed, you can install it using Foundry:
 ```sh
 curl -L https://foundry.paradigm.xyz | bash
 foundryup
+source ~/.bashrc
 ```
 
 To build the Solidity contracts, run:
